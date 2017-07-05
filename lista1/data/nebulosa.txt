@@ -1,0 +1,9 @@
+A base de dados nebulosa é composta por 8 atributos:
+1 - Número de identificação do usuário (um por usuário)
+2 - Nome do usuário representado em número (cada usuário tem um nome)
+3 - Porte físico da pessoa na escala entre 1 e 3, mas contaminado com ruído
+4 - Nível educacional da pessoa na escala entre 1 e 4, mas contaminado com ruído
+5 - Nível socio-econômico da pessoa na escala entre 1 e 4, mas contaminado com ruído
+6 - Época de nascimento da pessoa na escala entre 1 e 4, mas contaminado com ruído
+7 - Idade da pessoa na escala entre 1 e 4, mas contaminado com ruído
+8 - Classificação da pessoa na escala entre 1 e 3
