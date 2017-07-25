@@ -3,8 +3,9 @@ import os
 
 SEED = 2017
 
-DATA_DIR = os.path.join('..', 'data')
-OUTPUT_DIR = os.path.join('..', 'output')
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
+DATA_DIR = os.path.join(BASE_DIR, 'data')
+OUTPUT_DIR = os.path.join(BASE_DIR, 'output')
 
 # Database URLs
 URL_IRIS_DATABASE = 'http://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data'

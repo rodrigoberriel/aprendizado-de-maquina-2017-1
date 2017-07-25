@@ -63,12 +63,12 @@ def pca(x, n_components=2, whiten=False):
 
 def RMSE(y_pred, y_true):
     """ Root-mean-square Error """
-    return np.sqrt(sum((y_true - y_pred) ** 2) / y_true.shape[0])
+    return np.sqrt(sum((y_true - y_pred) ** 2) / float(y_true.shape[0]))
 
 
 def MAPE(y_pred, y_true):
     """ Mean Absolute Percentage Error """
-    return 100. * sum(abs((y_true - y_pred) / y_true)) / y_true.shape[0]
+    return 100. * sum(abs((y_true - y_pred) / y_true)) / float(y_true.shape[0])
 
 
 def R_2(y_pred, y_true):
