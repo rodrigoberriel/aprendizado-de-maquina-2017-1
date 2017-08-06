@@ -2,7 +2,7 @@
 
 Professor: Dr. Patrick Marques Ciarelli
 
-Esse repositório será usado para armazenar os códigos-fontes e relatórios das listas de exercícios da disciplina. Os códigos foram testados tanto no Linux (Ubuntu 14.04) quanto no Windows 10. Para rodar os scripts dos exercícios, é necessário ter Python 2.7 ou Python 3.x e algumas dependências. Para instalar as dependências, basta rodar o comando abaixo na raiz do repositório:
+Esse repositório será usado para armazenar os códigos-fontes e relatórios das listas de exercícios da disciplina. Os códigos foram testados tanto no Linux (Ubuntu 14.04 e 16.04) quanto no Windows 10. Para rodar os scripts dos exercícios, é necessário ter Python 2.7 ou Python 3.x e algumas dependências. Para instalar as dependências, basta rodar o comando abaixo na raiz do repositório:
 
     $ pip install -r requirements.txt
 
@@ -25,5 +25,6 @@ Alguns exercícios fazem uso de bases de dados disponíveis publicamente. Para e
  - [Spiral](http://cs.joensuu.fi/sipu/datasets/spiral.txt)
  - [Jain](http://cs.joensuu.fi/sipu/datasets/jain.txt)
  - [Servo](http://archive.ics.uci.edu/ml/machine-learning-databases/servo/servo.data)
+ - [Concrete Compressive Strength](https://archive.ics.uci.edu/ml/machine-learning-databases/concrete/compressive/Concrete_Data.xls)
 
 Durante a execução dos exercícios, os gráficos exibidos nos relatórios de cada lista serão exibidos e salvos na pasta `output` da lista correspondente (os gráficos gerados por mim já se encontram na pasta `output`, para que seja possível compilar os relatórios). O código-fonte (em LaTeX) dos relatórios se encontra na pasta `report` de cada lista. Para garantir a reprodutibilidade dos resultados e gráficos, foi usado como seed o valor `2017` definido no arquivo `lista{$i}/scripts/constants.py`.
